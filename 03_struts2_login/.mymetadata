@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="03struts2_login"
+  id="myeclipse.1439190273813"
+  context-root="/03struts2_login"
+  j2ee-spec="6.0"
+  archive="03struts2_login.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

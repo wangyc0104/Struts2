@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="17struts2_batch"
+  id="myeclipse.1439946632134"
+  context-root="/batch"
+  j2ee-spec="5.0"
+  archive="17struts2_batch.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

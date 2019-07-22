@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!--
+	    package：包  
+	        * name：包名，唯一的，必选项  
+	        * namespace：命名空间，唯一的，相当于房间号。可选项，省略情况下是"/"。页面中请求连接的前半部分  
+	        * extends：继承  
+	            * extends="struts-default"：struts2框架底层提供的核心包struts2-core-2.3.4.jar下的struts-default.xml文件  
+	            * 为什么要继承这个struts-default.xml文件？  
+	                * 因为struts2框架底层提供的struts-default.xml声明了所有的拦截器和拦截器栈，  
+	                * 如果不继承struts-default.xml文件，就没有办法使用struts2框架提供的所有拦截器  
+	-->  
+	<package name="hello" namespace="/" extends="struts-default">
+		<!-- 这个Action相当于是默认的Action -->
+		<action name="hello" class="wyc.action.HelloAction">
+			<result name="success" type="redirect">/hello.jsp</result>
+		</action>
+		<action name="good" class="wyc.action.HelloAction" method="good">
+			<result name="good" type="dispatcher">
+				<param name="location">/good.jsp</param>
+			</result>
+		</action>
+		<action name="bad" class="wyc.action.HelloAction" method="bad">
+			<result name="bad">/bad.jsp</result>
+		</action>
+	</package>
+	
+</struts>        

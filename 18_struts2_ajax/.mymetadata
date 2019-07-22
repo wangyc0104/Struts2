@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="18struts2_ajax"
+  id="myeclipse.1439946632134"
+  context-root="/ajax"
+  j2ee-spec="5.0"
+  archive="18struts2_ajax.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
